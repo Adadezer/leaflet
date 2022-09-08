@@ -1,7 +1,8 @@
 import React from 'react';
 import {ThemeProvider} from 'styled-components';
 import {Routes, Route} from 'react-router-dom';
-import {Home, New} from './components';
+import {New} from './components';
+import Home from './pages/Home';
 
 function App() {
   const theme = {
