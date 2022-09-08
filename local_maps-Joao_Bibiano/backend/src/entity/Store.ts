@@ -10,7 +10,7 @@ export class Store {
 
   @Column("varchar")
   description: string;
-  
+
   @Column("varchar")
   category: string;
 
