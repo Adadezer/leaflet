@@ -1,8 +1,9 @@
 import React from 'react'
+import {Title} from './styles'
 
 function Home() {
   return (
-    <div>Renderizando Home</div>
+    <Title>Renderizando Home</Title>
   )
 }
 
