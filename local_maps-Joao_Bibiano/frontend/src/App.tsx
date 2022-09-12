@@ -1,7 +1,7 @@
 import React from 'react';
 import {ThemeProvider} from 'styled-components';
 import {Routes, Route} from 'react-router-dom';
-import {New} from './components';
+import New from './pages/New';
 import Home from './pages/Home';
 
 function App() {
