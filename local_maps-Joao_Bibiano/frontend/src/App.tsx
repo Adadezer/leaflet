@@ -1,8 +1,8 @@
 import React from 'react';
 import {ThemeProvider} from 'styled-components';
 import {Routes, Route} from 'react-router-dom';
-import {New} from './components';
-import Home from './pages/Home';
+import NewPage from './pages/New';
+import HomePage from './pages/Home';
 
 function App() {
   const theme = {
@@ -15,8 +15,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/new' element={<New />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/new' element={<NewPage />} />
       </Routes>
     </ThemeProvider>
   );
